@@ -3,9 +3,9 @@ Simple To Do App.
 
 
 <p float="left">
-<img src="register.PNG" width="300" >
-<img src="login.PNG" width="300" >
-<img src="home.PNG" width="300" >
+<img src="register.png" width="300" >
+<img src="login.png" width="300" >
+<img src="home.png" width="300" >
 </p>
 
 
