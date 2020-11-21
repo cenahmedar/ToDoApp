@@ -1,0 +1,29 @@
+services:
+  couchbase:
+    environment:
+      CB_INDEXSTORAGE: memory_optimized
+    image: btburnett3/couchbasefakeit:enterprise-6.0.1
+    ports:
+    - published: 8081
+      target: 8091
+    volumes:
+    - D:\MyAndroidAdv\ToDo\couchbase:/startup:rw
+  todo.api:
+    build:
+      context: D:\MyAndroidAdv\ToDo
+      dockerfile: ToDo.Api/Dockerfile
+    depends_on:
+      couchbase:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      Couchbase__Servers__0: http://couchbase:8091/
+    image: todoapi
+    ports:
+    - published: 44363
+      target: 443
+    volumes:
+    - C:\Users\cenah\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\cenah\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

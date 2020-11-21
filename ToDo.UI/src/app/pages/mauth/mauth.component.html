@@ -1,0 +1,93 @@
+<div class="center-content">
+  <mat-card class="example-card" style="padding: 50px;">
+    <!-- background-color: #303030; -->
+    <mat-card-header>
+
+      <div style=" margin: auto;width: 50%; padding: 10px;">
+        <img src="../../assets/images/mainicon.png" style="height: 150px; display:block;
+          margin:auto;">
+        <br>
+
+        <mat-card-title style="font-size: 30px !important;">ToDo</mat-card-title>
+
+      </div>
+
+    </mat-card-header>
+    <mat-card-content>
+      <mat-tab-group mat-stretch-tabs>
+
+
+
+        <mat-tab label="Login">
+
+          <form #Loginform="ngForm" (submit)="Login(Loginform)">
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Username</mat-label>
+              <input #Username ngModel matInput name="Username" placeholder="Username" required>
+              <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input #Password ngModel matInput type="password" name="Password" placeholder="Password" required>
+              <mat-icon matSuffix>vpn_key</mat-icon>
+            </mat-form-field>
+            <button type="submit" [disabled]="submitted || !Loginform.valid" mat-button color="primary">Login</button>
+          </form>
+
+        </mat-tab>
+
+
+
+
+        <mat-tab label="Register">
+          <form #Registerform="ngForm" (submit)="Register(Registerform)">
+
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Name</mat-label>
+              <input [(ngModel)]="model.Name" matInput name="Name" placeholder="Name" required>
+              <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Surname</mat-label>
+              <input [(ngModel)]="model.Surname" matInput name="Surname" placeholder="Surname" required>
+              <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Username</mat-label>
+              <input [(ngModel)]="model.Username" matInput name="Username" placeholder="Username" required>
+              <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input type="password" [(ngModel)]="model.Password" name="Password" matInput placeholder="Password"
+                required>
+              <mat-icon matSuffix>vpn_key</mat-icon>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input matInput type="password" [(ngModel)]="model.RePassword" name="RePassword" placeholder="Password"
+                required>
+              <mat-icon matSuffix>vpn_key</mat-icon>
+            </mat-form-field>
+
+            <button [disabled]="submitted || !Registerform.valid" mat-button color="primary"
+              type="submit">Register</button>
+
+          </form>
+        </mat-tab>
+
+
+
+      </mat-tab-group>
+
+    </mat-card-content>
+
+  </mat-card>
+</div>

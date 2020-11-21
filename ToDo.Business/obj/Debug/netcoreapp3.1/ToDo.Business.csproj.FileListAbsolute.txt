@@ -1,0 +1,16 @@
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Business.deps.json
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Business.dll
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Business.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.DataAccess.dll
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Entities.dll
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.DataAccess.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Entities.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Business\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.csprojAssemblyReference.cache
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.csproj.CoreCompileInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.AssemblyInfoInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.AssemblyInfo.cs
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.csproj.CopyComplete
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.dll
+D:\MyAndroidAdv\ToDo\ToDo.Business\obj\Debug\netcoreapp3.1\ToDo.Business.pdb

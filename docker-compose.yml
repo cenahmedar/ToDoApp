@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  couchbase:
+    image: btburnett3/couchbasefakeit:enterprise-6.0.1
+    environment:
+      CB_INDEXSTORAGE: memory_optimized
+    volumes:
+    - "./couchbase:/startup" # local ./couchbase folder where couchbasefakeit configuration files are located
+    ports:
+    - "8081:8091" # Allows local access to mgmt UI
+  todo.api:
+    image: ${DOCKER_REGISTRY-}todoapi
+    build:
+      context: .
+      dockerfile: ToDo.Api/Dockerfile
+    environment:
+      Couchbase__Servers__0: http://couchbase:8091/ # Reference to the "couchbase" service name on line 4
+    depends_on:
+    - couchbase # Reference to the "couchbase" service name on line 4
+
+
+
+

@@ -1,0 +1,9 @@
+D:\MyAndroidAdv\ToDo\ToDo.Core\bin\Debug\netcoreapp3.1\ToDo.Core.deps.json
+D:\MyAndroidAdv\ToDo\ToDo.Core\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\MyAndroidAdv\ToDo\ToDo.Core\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.csproj.CoreCompileInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.AssemblyInfoInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.AssemblyInfo.cs
+D:\MyAndroidAdv\ToDo\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\MyAndroidAdv\ToDo\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Core\obj\Debug\netcoreapp3.1\ToDo.Core.csprojAssemblyReference.cache

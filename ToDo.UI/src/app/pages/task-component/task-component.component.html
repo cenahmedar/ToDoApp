@@ -1,0 +1,73 @@
+<div class="todo-content">
+
+  <div style="float: left;margin-top: 5px;padding: 10px;">
+    <h1 class="page-title">My Todos</h1>
+  </div>
+
+  <div style="float: right;padding: 10px;" >
+    <button (click)="LogOut()"  mat-mini-fab color="primary"  title="Log Out">
+      <mat-icon>login</mat-icon>
+    </button>
+  </div>
+
+    <div style="float: clear;">
+
+    </div>
+    <div class="todo-create">
+      <form #todoForm="ngForm" (ngSubmit)="createTodo(todoForm)" novalidate>
+        <input type="text" id="title" class="form-control" placeholder="Type a todo and press enter..." 
+               required
+               name="title" [(ngModel)]="newTodo.Content"
+               #title="ngModel" >
+        <div *ngIf="title.errors && title.dirty"
+             class="alert alert-danger">
+            <div [hidden]="!title.errors.required">
+              Title is required.
+            </div>
+        </div>
+      </form>
+    </div>
+    <ul class="todo-list">
+      <li *ngFor="let todo of todos" [class.completed]="todo.IsFinish === true" >
+        <div class="todo-row" *ngIf="!editing || editingTodo.Id != todo.Id">
+            <a class="todo-completed" (click)="toggleCompleted(todo)">
+              <i class="material-icons toggle-completed-checkbox"></i> 
+            </a> 
+            <span class="todo-title">
+              {{todo.Content}}
+            </span>
+            <span class="todo-actions">
+                <a>
+                  <button (click)="editTodo(todo)"  mat-icon-button color="accent"  title="edit">
+                    <mat-icon>edit</mat-icon>
+                  </button>
+                </a>
+                <a >
+                  <button (click)="deleteTodo(todo.Id)"  mat-icon-button color="warn"  title="clear">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+                </a>
+            </span>
+        </div>
+        <div class="todo-edit" *ngIf="editing && editingTodo.Id === todo.Id">
+            <input class="form-control" type="text" 
+             [(ngModel)]="editingTodo.Content" required>
+            <span class="edit-actions">
+                <a>
+                  <button (click)="updateTodo(editingTodo)"  mat-icon-button color="accent"  title="done">
+                    <mat-icon>done</mat-icon>
+                  </button>
+                </a>
+                <a (click)="clearEditing()">
+                  <button (click)="clearEditing()"  mat-icon-button color="warn"  title="clear">
+                    <mat-icon>clear</mat-icon>
+                  </button>
+                </a>
+            </span>
+        </div>
+      </li>
+    </ul>
+    <div class="no-todos" *ngIf="todos && todos.length == 0">
+        <p>No Todos Found!</p>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.DataAccess.deps.json
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.DataAccess.dll
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.DataAccess.pdb
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.Entities.dll
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\bin\Debug\netcoreapp3.1\ToDo.Entities.pdb
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csprojAssemblyReference.cache
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csproj.CoreCompileInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.AssemblyInfoInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.AssemblyInfo.cs
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.csproj.CopyComplete
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.dll
+D:\MyAndroidAdv\ToDo\ToDo.DataAccess\obj\Debug\netcoreapp3.1\ToDo.DataAccess.pdb

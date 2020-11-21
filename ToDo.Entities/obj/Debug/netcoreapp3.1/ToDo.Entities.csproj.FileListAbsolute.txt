@@ -1,0 +1,12 @@
+D:\MyAndroidAdv\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Entities.deps.json
+D:\MyAndroidAdv\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Entities.dll
+D:\MyAndroidAdv\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Entities.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\MyAndroidAdv\ToDo\ToDo.Entities\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.csprojAssemblyReference.cache
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.csproj.CoreCompileInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.AssemblyInfoInputs.cache
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.AssemblyInfo.cs
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.csproj.CopyComplete
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.dll
+D:\MyAndroidAdv\ToDo\ToDo.Entities\obj\Debug\netcoreapp3.1\ToDo.Entities.pdb
